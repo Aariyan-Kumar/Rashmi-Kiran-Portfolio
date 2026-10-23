@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+@theme {
+  /* Primary: Deep Navy Blue */
+  --color-navy-100: #0B141C;
+  --color-navy-200: #12212D;
+  --color-navy-300: #1D3448;
+  --color-navy-400: #294A65;
+  --color-navy-500: #3B6484;
+  --color-navy-600: #6389A6;
+  --color-navy-700: #91ADC1;
+
+  /* Secondary: Muted Teal Green */
+  --color-teal-100: #193331;
+  --color-teal-200: #284F4C;
+  --color-teal-300: #3C7A76;
+  --color-teal-400: #4E918C;
+  --color-teal-500: #65A9A3;
+  --color-teal-600: #8BC3BE;
+  --color-teal-700: #B5DCD8;
+
+  /* Neutral: Cool Gray */
+  --color-gray-100: #BFC5C9;
+  --color-gray-200: #D1D6D9;
+  --color-gray-300: #E0E4E6;
+  --color-gray-400: #F1F3F4;
+  --color-gray-500: #F5F6F7;
+  --color-gray-600: #F8F9FA;
+  --color-gray-700: #FFFFFF;
+}
+
+.typewriter {
+    overflow: hidden; /* Ensures the content is hidden until the animation is complete */
+    border-right: 0.15em solid var(--color-teal-500); /* Creates the cursor effect */
+    white-space: nowrap; /* Prevents the text from wrapping to the next line */
+    width: 0; /* Initial width of the text container */
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end 4; /* Typing and blinking cursor animations */
+}
+
+@keyframes typing {
+    from { width: 0; } /* Start with no text visible */
+    to { width: 15ch; } /* Adjust the width to match the number of characters in your text */
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; } /* Hide the cursor at the start and end of the animation */
+    50% { border-color: var(--color-teal-500); } /* Show the cursor in the middle of the animation */
+}
