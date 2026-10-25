@@ -1,6 +1,9 @@
-import { TiGroup, TbTargetArrow, TbShieldFilled, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+import { FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+import { TiGroup } from 'react-icons/ti';
+import { TbTargetArrow, TbShieldFilled } from 'react-icons/tb';
+import { MdPermIdentity } from 'react-icons/md';
 
-import profileImg from '../assets/profile.avif';
+import profileImg from '../assets/profile.jpeg';
 import projectImg1 from '../assets/project1.avif';
 import projectImg2 from '../assets/project2.avif';
 import projectImg3 from '../assets/project3.avif';
