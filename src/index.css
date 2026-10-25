@@ -39,12 +39,12 @@
     border-right: 0.15em solid var(--color-teal-500); /* Creates the cursor effect */
     white-space: nowrap; /* Prevents the text from wrapping to the next line */
     width: 0; /* Initial width of the text container */
-    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end 4; /* Typing and blinking cursor animations */
+    animation: typing 3.5s steps(40, end) forwards, blink-caret 0.75s step-end 4; /* Typing and blinking cursor animations */
 }
 
 @keyframes typing {
     from { width: 0; } /* Start with no text visible */
-    to { width: 15ch; } /* Adjust the width to match the number of characters in your text */
+    to { width: 19ch; } /* Adjust the width to match the number of characters in your text */
 }
 
 @keyframes blink-caret {
