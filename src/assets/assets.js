@@ -45,37 +45,37 @@ export const aboutInfo = [
 
 export const skills = [
   {
-    title: 'Frontend Development',
+    title: '', //TBD
     icon: FaReact,
     description: 'Building responsive and interactive user interfaces with modern frameworks.',
     tags: ['React', 'Vue.js', 'Angular', 'TypeScript']
   },
   {
-    title: 'Backend Development',
+    title: '', //TBD  
     icon: FaServer,
     description: 'Creating robust server-side applications and RESTful APIs.',
     tags: ['Node.js', 'Express', 'Django', 'Laravel']
   },
   {
-    title: 'Database Management',
+    title: '', //TBD
     icon: FaDatabase,
     description: 'Designing and optimizing databases for performance and scalability.',
     tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
   },
   {
-    title: 'Mobile Development',
+    title: '', //TBD
     icon: FaMobileAlt,
     description: 'Building cross-platform mobile applications with modern tools.',
     tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
   },
   {
-    title: 'Cloud & DevOps',
+    title: '', //TBD
     icon: FaCloud,
     description: 'Deploying and managing applications in cloud environments.',
     tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
   },
   {
-    title: 'Tools & Technologies',
+    title: '', //TBD
     icon: FaTools,
     description: 'Essential tools and technologies I use in my development workflow.',
     tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
@@ -86,7 +86,7 @@ export const skills = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "", //TBD
     description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
     image: projectImg1,
     tech: ["React", "Node.js", "MongoDB", "Stripe"],
@@ -95,7 +95,7 @@ export const projects = [
     code: "#",
   },
   {
-    title: "Task Management App",
+    title: "", //TBD
     description: "A productivity application with drag-and-drop functionality and real-time updates.",
     image: projectImg2,
     tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
@@ -104,7 +104,7 @@ export const projects = [
     code: "#",
   },
   {
-    title: "Fitness Tracker",
+    title: "", //TBD
     description: "A mobile app for tracking workouts, nutrition, and health metrics.",
     image: projectImg3,
     tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
@@ -113,7 +113,7 @@ export const projects = [
     code: "#",
   },
   {
-    title: "Portfolio Website",
+    title: "", //TBD
     description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
     image: projectImg4,
     tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
@@ -122,7 +122,7 @@ export const projects = [
     code: "#",
   },
   {
-    title: "Chat App",
+    title: "", //TBD
     description: "A real-time chat application with group messaging, emojis, and file sharing.",
     image: projectImg5,
     tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
@@ -131,7 +131,7 @@ export const projects = [
     code: "#",
   },
   {
-    title: "AI Image Generator",
+    title: "", //TBD
     description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
     image: projectImg6,
     tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
@@ -144,8 +144,8 @@ export const projects = [
 
 export const workData = [
   {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
+    role: "", //TBD
+    company: "", //TBD
     duration: "2020 - Present",
     description:
       "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",

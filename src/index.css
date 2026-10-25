@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'sans-serif', sans-serif;
 }
 
 @theme {
