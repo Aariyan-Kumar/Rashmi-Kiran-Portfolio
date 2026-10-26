@@ -2,6 +2,8 @@ import { FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, F
 import { TiGroup } from 'react-icons/ti';
 import { TbTargetArrow, TbShieldFilled } from 'react-icons/tb';
 import { MdPermIdentity } from 'react-icons/md';
+import { TbSettingsAutomation } from "react-icons/tb";
+import { GiProgression } from "react-icons/gi";
 
 import profileImg from '../assets/profile.jpeg';
 import projectImg1 from '../assets/project1.avif';
@@ -19,29 +21,23 @@ export const assets = {
 
 export const aboutInfo = [
     {
-      icon: TiGroup,
-      title: 'Culture',
-      description: '', //TBD
+      icon: TbSettingsAutomation,
+      title: 'No-code tool',
+      description: ' When programming language functions are difficult to remember, then drag and drop comes to the survival',
+      color: '#F1F3F4'
+    },
+    {
+      icon: GiProgression,
+      title: 'Business Analysis',
+      description: 'When you couldn’t find the problem in the business, you deep dive into the root cause.',
       color: '#F1F3F4'
     },
     {
       icon: TbTargetArrow,
-      title: 'Consistency',
-      description: '', //TBD
+      title: 'Strategic Competitive Advantage',
+      description: 'Every time when you think there is no sale, you lack uniqueness.',
       color: '#F1F3F4'
     },
-    {
-      icon: MdPermIdentity,
-      title: 'Customer Experience',
-      description: '', //TBD
-      color: '#F1F3F4'
-    },
-    {
-      icon: TbShieldFilled,
-      title: 'Credibility',
-      description: '', //TBD
-      color: '#F1F3F4'
-    }
   ];
 
 
