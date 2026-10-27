@@ -1,9 +1,7 @@
-import { FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
-import { TiGroup } from 'react-icons/ti';
-import { TbTargetArrow, TbShieldFilled } from 'react-icons/tb';
-import { MdPermIdentity } from 'react-icons/md';
-import { TbSettingsAutomation } from "react-icons/tb";
+import { FaReact, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+import { TbTargetArrow, TbSettingsAutomation, TbReportSearch } from 'react-icons/tb';
 import { GiProgression } from "react-icons/gi";
+import { LuBrainCircuit, LuLightbulb, LuFeather, LuBriefcaseBusiness } from "react-icons/lu";
 
 import profileImg from '../assets/profile.jpeg';
 import projectImg1 from '../assets/project1.avif';
@@ -44,42 +42,36 @@ export const aboutInfo = [
 
 export const skills = [
   {
-    title: '', //TBD
-    icon: FaReact,
-    description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React', 'Vue.js', 'Angular', 'TypeScript']
+    title: 'Research & Consulting', 
+    icon: TbReportSearch,
+    description: 'Research, information synthesis, business analysis, identifying problems and evaluating potential solutions.',
+    tags: ['Market Research', 'Consulting']
   },
   {
-    title: '', //TBD  
-    icon: FaServer,
-    description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['Node.js', 'Express', 'Django', 'Laravel']
+    title: 'Technical & Analytical Skills',   
+    icon: LuBrainCircuit,
+    description: ' Excel, SQL and Python,  tools for data analysis, querying databases, automating tasks and supporting decisions.',
+    tags: ['Excel', 'SQL', 'Python', 'Power BI']
   },
   {
-    title: '', //TBD
-    icon: FaDatabase,
-    description: 'Designing and optimizing databases for performance and scalability.',
-    tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
+    title: 'Business Problem-Solving', 
+    icon: LuLightbulb,
+    description: 'Understanding business challenges, examining root causes, comparing options and developing practical solutions.',
+    tags: ['Business Analysis', 'Problem Solving', 'Decision Making']
   },
   {
-    title: '', //TBD
-    icon: FaMobileAlt,
-    description: 'Building cross-platform mobile applications with modern tools.',
-    tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
+    title: 'Creative & Written Expression', 
+    icon: LuFeather,
+    description: 'Poetry writing, creative expression and potentially written communication. Professional writing proficiency would need separate assessment.',
+    tags: ['Poetry Writing', 'Creative Expression', 'Written Communication']
   },
   {
-    title: '', //TBD
-    icon: FaCloud,
-    description: 'Deploying and managing applications in cloud environments.',
-    tags: ['AWS', 'Docker', 'Kubernetes', 'CI/CD']
-  },
-  {
-    title: '', //TBD
-    icon: FaTools,
-    description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
+    title: 'Career Management',
+    icon: LuBriefcaseBusiness,
+    description: 'A stated area of interest or expertise. Your specific capabilities could include career research, planning, skill mapping or career strategy.',
+    tags: ['Career Research', 'Career Planning', 'Skill Mapping', 'Career Strategy']
   }
-];
+]
 
 
 
