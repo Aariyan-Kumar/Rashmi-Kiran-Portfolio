@@ -1,15 +1,11 @@
-import { FaReact, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 import { TbTargetArrow, TbSettingsAutomation, TbReportSearch } from 'react-icons/tb';
 import { GiProgression } from "react-icons/gi";
 import { LuBrainCircuit, LuLightbulb, LuFeather, LuBriefcaseBusiness } from "react-icons/lu";
 
 import profileImg from '../assets/profile.jpeg';
-import projectImg1 from '../assets/project1.avif';
-import projectImg2 from '../assets/project2.avif';
-import projectImg3 from '../assets/project3.avif';
-import projectImg4 from '../assets/project4.avif';
-import projectImg5 from '../assets/project5.avif';
-import projectImg6 from '../assets/project6.avif';
+import projectImg1 from '../assets/project1.jpg';
+import projectImg2 from '../assets/project2.jpg';
+import projectImg3 from '../assets/project3.png';
 
 
 export const assets = {
@@ -77,57 +73,24 @@ export const skills = [
 
 export const projects = [
   {
-    title: "", //TBD
-    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
+    title: "Organizational Analysis of TATA",
+    description: "How TATA became TATA by investing Trust among their employees.",
     image: projectImg1,
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
-    demo: "#",
+    demo: "https://drive.google.com/file/d/1m3oGKUssi5b4NSzgW_-4iVZWrnQfA01k/view?usp=drive_link",
     code: "#",
   },
   {
-    title: "", //TBD
-    description: "A productivity application with drag-and-drop functionality and real-time updates.",
+    title: "Zomato Reviews", 
+    description: "Sentiment Analysis of the reviews across Playstore.",
     image: projectImg2,
-    tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
-    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "#",
+    demo: "https://drive.google.com/file/d/1-l4kxyUDfbYmaxt03TpZldP9TEwrurAH/view?usp=drive_link",
     code: "#",
   },
   {
-    title: "", //TBD
-    description: "A mobile app for tracking workouts, nutrition, and health metrics.",
+    title: "Dorado Crust",
+    description: "A pitch deck for a Kolkata mobile fusion bakery seeking ₹10 Lakhs for 10% equity.",
     image: projectImg3,
-    tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
-    icons: [FaReact, FaDatabase],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "", //TBD
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
-    image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
-    icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "", //TBD
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
-    image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "", //TBD
-    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
-    image: projectImg6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-    icons: [FaRobot, FaReact, FaCloud],
-    demo: "#",
+    demo: "https://drive.google.com/file/d/1ut4TZHxl4lWBXeH7Iir41PaTAm2l7W0y/view?usp=drive_link",
     code: "#",
   }
 ];
