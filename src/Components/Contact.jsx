@@ -4,6 +4,12 @@ import { motion } from 'framer-motion'
 import { FaCheckCircle, FaEnvelope, FaExclamationCircle, FaInstagram, FaLinkedin, FaMapMarkerAlt } from 'react-icons/fa'
 import { TbLeaf2 } from "react-icons/tb";
 
+const emailJsConfig = {
+    serviceId: import.meta.env.VITE_EMAILJS_SERVICE_ID,
+    templateId: import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
+}
+
 const Contact = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -36,14 +42,23 @@ const Contact = () => {
         setErrors(nextErrors)
         if (Object.keys(nextErrors).length > 0) return
 
+        if (!emailJsConfig.serviceId || !emailJsConfig.templateId || !emailJsConfig.publicKey) {
+            console.error('EmailJS configuration is missing. Set the VITE_EMAILJS_* values in .env and restart the dev server.')
+            setSubmissionNotice({
+                type: 'error',
+                message: 'The contact form is temporarily unavailable. Please try again later.',
+            })
+            return
+        }
+
         setIsSending(true)
         setSubmissionNotice(null)
         try {
             const response = await emailjs.send(
-                'service_mgml792',
-                'template_jsbmdzt',
+                emailJsConfig.serviceId,
+                emailJsConfig.templateId,
                 formData,
-                { publicKey: 'ZbN13A_Kx7dsNPdvs' },
+                { publicKey: emailJsConfig.publicKey },
             )
             console.info('EmailJS accepted the contact message:', {
                 status: response.status,
