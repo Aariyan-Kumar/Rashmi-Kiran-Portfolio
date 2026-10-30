@@ -37,10 +37,10 @@ const Navbar = () => {
                     <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-teal-500 transition-all duration-300 group-hover:w-full"></span>
                 </a>
 
-                 <a href="#hobbies" className="group relative text-gray-400 transition hover:text-teal-500 duration-300">
+                {/* <a href="#hobbies" className="group relative text-gray-400 transition hover:text-teal-500 duration-300">
                     <span>Hobbies</span>
                     <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-teal-500 transition-all duration-300 group-hover:w-full"></span>
-                </a>
+                </a> */}
 
                 <a href="#Contact" className="group relative text-gray-400 transition hover:text-teal-500 duration-300">
                     <span>Contact</span>
